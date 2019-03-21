@@ -1,0 +1,43 @@
+PODS:
+  - CarambaKit/Foundation (1.0.9):
+    - Result (~> 3.0)
+    - SwiftyJSON (~> 3.0)
+  - CarambaKit/Networking (1.0.9):
+    - CarambaKit/Foundation
+    - KeychainSwift (~> 6.0)
+  - HTTPStatusCodes (3.2.0)
+  - KeychainSwift (6.0.2)
+  - Result (3.2.4)
+  - SDWebImage (4.4.5):
+    - SDWebImage/Core (= 4.4.5)
+  - SDWebImage/Core (4.4.5)
+  - SwiftyJSON (3.1.4)
+  - Unbox (2.5.0)
+  - UnsplashKit/API (2.0.7):
+    - UnsplashKit/Foundation
+  - UnsplashKit/Foundation (2.0.7):
+    - HTTPStatusCodes (~> 3.1)
+    - Result (~> 3.1)
+    - Unbox (~> 2.3)
+  - UnsplashKit/Source (2.0.7):
+    - CarambaKit/Networking (~> 1.0.9)
+    - UnsplashKit/Foundation
+
+DEPENDENCIES:
+  - SDWebImage (~> 4.0)
+  - UnsplashKit/API
+  - UnsplashKit/Source
+
+SPEC CHECKSUMS:
+  CarambaKit: 9465dd57b8c8a7c5dfb9ac3cf36ecbbdceefd4a9
+  HTTPStatusCodes: 69f50d229c4b5d6dcb48fad9c86e32ded975bcd3
+  KeychainSwift: a261364334000afa8fab0894390d5d00dd226d4c
+  Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
+  SDWebImage: ecc03494e973b93b80213649d32175f8d2d17d4d
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  Unbox: 30e437e6151a6de16139375fd4e8dd9a664cfbf7
+  UnsplashKit: caa10361691808485bdee42e0c15715e0e11cd37
+
+PODFILE CHECKSUM: 1804838cf81fad7b5333b2696fc4394b07b4d4f5
+
+COCOAPODS: 1.4.0

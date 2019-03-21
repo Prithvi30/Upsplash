@@ -1,0 +1,6 @@
+framework module Pods_UnsplashDemo {
+  umbrella header "Pods-UnsplashDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
